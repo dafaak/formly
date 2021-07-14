@@ -16,7 +16,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormlyModule.forRoot({ extras: { lazyRender: true } }),
+    FormlyModule.forRoot({
+
+      extras: { lazyRender: true }
+    }),
     FormlyBootstrapModule,
     NgbModule
   ],
